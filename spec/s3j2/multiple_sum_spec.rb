@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 describe S3J2::MultipleSum do
   describe '#is_multiple_of_3_or_5?' do
     it 'should return TRUE when an integer is a multiple of 3 or 5' do

@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 describe S3J2::DayTrader do
   let(:options) { [17, 3, 6, 9, 15, 8, 6, 1, 10] }
 

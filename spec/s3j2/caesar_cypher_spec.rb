@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 describe S3J2::CaesarCypher do
   let(:text) { 'Hello, world!' }
   let(:shift) { 3 }

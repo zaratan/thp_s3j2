@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 module S3J2
   module MultipleSum
     def self.multiple_of_3_or_5?(current_number)

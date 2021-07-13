@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 module S3J2
   module DayTrader
     Roi = Struct.new(:roi, :days)

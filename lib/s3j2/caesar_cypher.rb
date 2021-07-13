@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 module S3J2
   module CaesarCypher
     # Will cypher the text by shifting it by the given shift amount
