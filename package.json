@@ -1,0 +1,12 @@
+{
+  "name": "s3j2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:zaratan/tests-ruby.git",
+  "author": "Denis <Zaratan> Pasin <zaratan@hey.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@prettier/plugin-ruby": "^1.6.1",
+    "prettier": "^2.3.2"
+  }
+}
