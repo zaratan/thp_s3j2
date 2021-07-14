@@ -22,19 +22,19 @@ describe S3J2::MultipleSum do
 
   it 'works with 0' do
     expect { described_class.sum_of_3_or_5_multiples(0) }.to raise_error(
-      /entiers naturels/,
+      /entiers naturels/
     )
   end
 
   it 'works with -123' do
     expect { described_class.sum_of_3_or_5_multiples(-123) }.to raise_error(
-      /entiers naturels/,
+      /entiers naturels/
     )
   end
 
   it 'works with "lol"' do
     expect { described_class.sum_of_3_or_5_multiples('lol') }.to raise_error(
-      /entiers naturels/,
+      /entiers naturels/
     )
   end
 
